@@ -1,0 +1,309 @@
+1536404141.855191 execve("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", ["bash", "-c", "time ls"], [/* 31 vars */]) = 0 <0.000100>
+1536404141.855369 brk(NULL)             = 0x559048f43000 <0.000005>
+1536404141.855401 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.855427 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fad63565000 <0.000006>
+1536404141.855455 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855478 open("tls/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.855498 open("tls/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855517 open("x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855535 open("libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855553 open("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/tls/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000008>
+1536404141.855575 stat("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/tls/x86_64", 0x7ffc012bb230) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.855595 open("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/tls/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.855615 stat("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/tls", 0x7ffc012bb230) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855634 open("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/x86_64/libncurses.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.855653 stat("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/x86_64", 0x7ffc012bb230) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855672 open("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/libncurses.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+1536404141.855693 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0O\1\0\0\0\0\0"..., 832) = 832 <0.000005>
+1536404141.855712 fstat(3, {st_mode=S_IFREG|0750, st_size=366320, ...}) = 0 <0.000005>
+1536404141.855732 mmap(NULL, 2463824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fad630eb000 <0.000006>
+1536404141.855750 mprotect(0x7fad63140000, 2093056, PROT_NONE) = 0 <0.000010>
+1536404141.855770 mmap(0x7fad6333f000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7fad6333f000 <0.000010>
+1536404141.855795 mmap(0x7fad63344000, 2128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fad63344000 <0.000006>
+1536404141.855818 close(3)              = 0 <0.000005>
+1536404141.855838 open("tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855857 open("tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855876 open("x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855894 open("libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855912 open("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.855933 open("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855952 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib/tls/x86_64", 0x7ffc012bb200) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855970 open("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.855989 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib/tls", 0x7ffc012bb200) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.856014 open("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.856033 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib/x86_64", 0x7ffc012bb200) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856052 open("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856070 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib", {st_mode=S_IFDIR|0750, st_size=4096, ...}) = 0 <0.000006>
+1536404141.856091 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.856110 fstat(3, {st_mode=S_IFREG|0644, st_size=32914, ...}) = 0 <0.000006>
+1536404141.856127 mmap(NULL, 32914, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad6355c000 <0.000006>
+1536404141.856144 close(3)              = 0 <0.000005>
+1536404141.856162 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856182 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+1536404141.856202 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\r\0\0\0\0\0\0"..., 832) = 832 <0.000006>
+1536404141.856220 fstat(3, {st_mode=S_IFREG|0644, st_size=14640, ...}) = 0 <0.000005>
+1536404141.856240 mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fad62ee7000 <0.000007>
+1536404141.856259 mprotect(0x7fad62eea000, 2093056, PROT_NONE) = 0 <0.000009>
+1536404141.856279 mmap(0x7fad630e9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fad630e9000 <0.000009>
+1536404141.856305 close(3)              = 0 <0.000005>
+1536404141.856323 open("tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856343 open("tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856361 open("x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856379 open("libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856397 open("/srv/slapgrid/slappart8/software_release/parts/ncurses/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000059>
+1536404141.856471 open("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/ncurses/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856492 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.856511 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+1536404141.856531 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\3\2\0\0\0\0\0"..., 832) = 832 <0.000005>
+1536404141.856555 fstat(3, {st_mode=S_IFREG|0755, st_size=1689360, ...}) = 0 <0.000005>
+1536404141.856576 mmap(NULL, 3795360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fad62b48000 <0.000007>
+1536404141.856595 mprotect(0x7fad62cdd000, 2097152, PROT_NONE) = 0 <0.000010>
+1536404141.856616 mmap(0x7fad62edd000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x195000) = 0x7fad62edd000 <0.000009>
+1536404141.856640 mmap(0x7fad62ee3000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fad62ee3000 <0.000007>
+1536404141.856662 close(3)              = 0 <0.000005>
+1536404141.856694 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fad6355a000 <0.000006>
+1536404141.856716 arch_prctl(ARCH_SET_FS, 0x7fad6355ab40) = 0 <0.000005>
+1536404141.856791 mprotect(0x7fad62edd000, 16384, PROT_READ) = 0 <0.000008>
+1536404141.856815 mprotect(0x7fad630e9000, 4096, PROT_READ) = 0 <0.000074>
+1536404141.856931 mprotect(0x7fad6333f000, 16384, PROT_READ) = 0 <0.000009>
+1536404141.856988 mprotect(0x559048f31000, 12288, PROT_READ) = 0 <0.000008>
+1536404141.857017 mprotect(0x7fad63568000, 4096, PROT_READ) = 0 <0.000007>
+1536404141.857035 munmap(0x7fad6355c000, 32914) = 0 <0.000011>
+1536404141.857089 open("/dev/tty", O_RDWR|O_NONBLOCK) = 3 <0.000011>
+1536404141.857116 close(3)              = 0 <0.000007>
+1536404141.857150 brk(NULL)             = 0x559048f43000 <0.000005>
+1536404141.857166 brk(0x559048f44000)   = 0x559048f44000 <0.000006>
+1536404141.857185 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3 <0.000009>
+1536404141.857208 fstat(3, {st_mode=S_IFREG|0644, st_size=2301488, ...}) = 0 <0.000005>
+1536404141.857226 mmap(NULL, 2301488, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad62916000 <0.000007>
+1536404141.857248 close(3)              = 0 <0.000005>
+1536404141.857270 brk(0x559048f45000)   = 0x559048f45000 <0.000006>
+1536404141.857291 open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+1536404141.857313 fstat(3, {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0 <0.000005>
+1536404141.857331 brk(0x559048f47000)   = 0x559048f47000 <0.000005>
+1536404141.857350 read(3, "# Locale name alias data base.\n#"..., 4096) = 2995 <0.000006>
+1536404141.857372 brk(0x559048f48000)   = 0x559048f48000 <0.000006>
+1536404141.857394 brk(0x559048f49000)   = 0x559048f49000 <0.000005>
+1536404141.857414 read(3, "", 4096)     = 0 <0.000006>
+1536404141.857431 close(3)              = 0 <0.000005>
+1536404141.857456 open("/usr/lib/locale/C.UTF-8/LC_IDENTIFICATION", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+1536404141.857477 fstat(3, {st_mode=S_IFREG|0644, st_size=243, ...}) = 0 <0.000006>
+1536404141.857494 mmap(NULL, 243, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad63564000 <0.000007>
+1536404141.857512 close(3)              = 0 <0.000004>
+1536404141.857530 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3 <0.000008>
+1536404141.857551 fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0 <0.000006>
+1536404141.857568 mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7fad6355d000 <0.000007>
+1536404141.857586 close(3)              = 0 <0.000005>
+1536404141.857608 open("/usr/lib/locale/C.UTF-8/LC_MEASUREMENT", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+1536404141.857629 fstat(3, {st_mode=S_IFREG|0644, st_size=23, ...}) = 0 <0.000006>
+1536404141.857646 mmap(NULL, 23, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad6355c000 <0.000007>
+1536404141.857664 close(3)              = 0 <0.000005>
+1536404141.857683 open("/usr/lib/locale/C.UTF-8/LC_TELEPHONE", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+1536404141.857703 fstat(3, {st_mode=S_IFREG|0644, st_size=47, ...}) = 0 <0.000005>
+1536404141.857721 mmap(NULL, 47, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad63559000 <0.000007>
+1536404141.857738 close(3)              = 0 <0.000004>
+1536404141.857757 open("/usr/lib/locale/C.UTF-8/LC_ADDRESS", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.857777 fstat(3, {st_mode=S_IFREG|0644, st_size=131, ...}) = 0 <0.000005>
+1536404141.857794 mmap(NULL, 131, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad63558000 <0.000007>
+1536404141.857812 close(3)              = 0 <0.000005>
+1536404141.857831 open("/usr/lib/locale/C.UTF-8/LC_NAME", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.857850 fstat(3, {st_mode=S_IFREG|0644, st_size=62, ...}) = 0 <0.000005>
+1536404141.857867 mmap(NULL, 62, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad63557000 <0.000007>
+1536404141.857884 close(3)              = 0 <0.000005>
+1536404141.857903 open("/usr/lib/locale/C.UTF-8/LC_PAPER", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.857924 fstat(3, {st_mode=S_IFREG|0644, st_size=34, ...}) = 0 <0.000005>
+1536404141.857941 mmap(NULL, 34, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad63556000 <0.000006>
+1536404141.857958 close(3)              = 0 <0.000005>
+1536404141.857977 open("/usr/lib/locale/C.UTF-8/LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.857996 fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000005>
+1536404141.858014 close(3)              = 0 <0.000006>
+1536404141.858029 open("/usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.858048 fstat(3, {st_mode=S_IFREG|0644, st_size=48, ...}) = 0 <0.000005>
+1536404141.858069 mmap(NULL, 48, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad63555000 <0.000006>
+1536404141.858086 close(3)              = 0 <0.000005>
+1536404141.858105 open("/usr/lib/locale/C.UTF-8/LC_MONETARY", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.858125 fstat(3, {st_mode=S_IFREG|0644, st_size=270, ...}) = 0 <0.000006>
+1536404141.858142 mmap(NULL, 270, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad63554000 <0.000007>
+1536404141.858160 close(3)              = 0 <0.000004>
+1536404141.858175 brk(0x559048f4a000)   = 0x559048f4a000 <0.000006>
+1536404141.858196 open("/usr/lib/locale/C.UTF-8/LC_COLLATE", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.858216 fstat(3, {st_mode=S_IFREG|0644, st_size=1515838, ...}) = 0 <0.000006>
+1536404141.858233 mmap(NULL, 1515838, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad633e1000 <0.000007>
+1536404141.858250 close(3)              = 0 <0.000005>
+1536404141.858276 open("/usr/lib/locale/C.UTF-8/LC_TIME", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.858296 fstat(3, {st_mode=S_IFREG|0644, st_size=2498, ...}) = 0 <0.000006>
+1536404141.858313 mmap(NULL, 2498, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad633e0000 <0.000007>
+1536404141.858330 close(3)              = 0 <0.000004>
+1536404141.858350 open("/usr/lib/locale/C.UTF-8/LC_NUMERIC", O_RDONLY|O_CLOEXEC) = 3 <0.000008>
+1536404141.858370 fstat(3, {st_mode=S_IFREG|0644, st_size=50, ...}) = 0 <0.000005>
+1536404141.858387 mmap(NULL, 50, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad633df000 <0.000006>
+1536404141.858404 close(3)              = 0 <0.000005>
+1536404141.858423 open("/usr/lib/locale/C.UTF-8/LC_CTYPE", O_RDONLY|O_CLOEXEC) = 3 <0.000007>
+1536404141.858443 fstat(3, {st_mode=S_IFREG|0644, st_size=198372, ...}) = 0 <0.000005>
+1536404141.858460 mmap(NULL, 198372, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fad633ae000 <0.000007>
+1536404141.858478 close(3)              = 0 <0.000004>
+1536404141.858513 getuid()              = 990 <0.000005>
+1536404141.858531 getgid()              = 1012 <0.000005>
+1536404141.858547 geteuid()             = 990 <0.000004>
+1536404141.858562 getegid()             = 1012 <0.000004>
+1536404141.858582 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000005>
+1536404141.858620 brk(0x559048f4b000)   = 0x559048f4b000 <0.000006>
+1536404141.858643 sysinfo({uptime=9365932, loads=[288544, 276704, 260000], totalram=67586576384, freeram=2998243328, sharedram=3393650688, bufferram=6791024640, totalswap=537915392, freeswap=532443136, procs=1971, totalhigh=0, freehigh=0, mem_unit=1}) = 0 <0.000011>
+1536404141.858668 brk(0x559048f4c000)   = 0x559048f4c000 <0.000006>
+1536404141.858701 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000005>
+1536404141.858722 rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fad62b7b030}, 8) = 0 <0.000004>
+1536404141.858740 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000005>
+1536404141.858758 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, 8) = 0 <0.000005>
+1536404141.858776 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0 <0.000005>
+1536404141.858794 rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, 8) = 0 <0.000005>
+1536404141.858813 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000005>
+1536404141.858830 rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, 8) = 0 <0.000004>
+1536404141.858853 uname({sysname="Linux", nodename="ns2295805.ovh.net", ...}) = 0 <0.000005>
+1536404141.858884 brk(0x559048f4d000)   = 0x559048f4d000 <0.000006>
+1536404141.858904 brk(0x559048f4e000)   = 0x559048f4e000 <0.000005>
+1536404141.858923 brk(0x559048f4f000)   = 0x559048f4f000 <0.000005>
+1536404141.858941 brk(0x559048f50000)   = 0x559048f50000 <0.000005>
+1536404141.858967 stat("/srv/slapgrid/slappart8/srv/runner/project/pystrace", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000010>
+1536404141.858992 stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000006>
+1536404141.859014 getpid()              = 13090 <0.000005>
+1536404141.859035 brk(0x559048f51000)   = 0x559048f51000 <0.000005>
+1536404141.859061 getppid()             = 13088 <0.000005>
+1536404141.859080 stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000006>
+1536404141.859102 stat("/srv/slapgrid/slappart8/srv/runner/project/slapos.core/env/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000008>
+1536404141.859126 stat("/srv/slapgrid/slappart8/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859145 stat("/srv/slapgrid/slappart8/.local/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859164 stat("/srv/slapgrid/slappart8/.local/nodejs/node-v8.6.0-linux-x64/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859184 stat("/srv/slapgrid/slappart8/.cargo/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.859204 stat("/srv/slapgrid/slappart8/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859222 stat("/srv/slapgrid/slappart8/.local/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859240 stat("/srv/slapgrid/slappart8/.local/nodejs/node-v8.6.0-linux-x64/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859259 stat("/srv/slapgrid/slappart8/.cargo/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859278 stat("/srv/slapgrid/slappart8/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859297 stat("/srv/slapgrid/slappart8/.local/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859315 stat("/srv/slapgrid/slappart8/.local/nodejs/node-v8.6.0-linux-x64/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859334 stat("/srv/slapgrid/slappart8/.cargo/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859352 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/nano/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000008>
+1536404141.859373 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/vim/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859392 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/screen/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.859412 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/git/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859431 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/curl/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.859451 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/python2.7/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.859470 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/tig/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.859490 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/zip/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.859510 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/mosh/bin/bash", 0x7ffc012bc660) = -1 ENOENT (No such file or directory) <0.000008>
+1536404141.859534 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", {st_mode=S_IFREG|0755, st_size=1078312, ...}) = 0 <0.000008>
+1536404141.859557 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", {st_mode=S_IFREG|0755, st_size=1078312, ...}) = 0 <0.000006>
+1536404141.859577 geteuid()             = 990 <0.000005>
+1536404141.859591 getegid()             = 1012 <0.000005>
+1536404141.859606 getuid()              = 990 <0.000005>
+1536404141.859620 getgid()              = 1012 <0.000005>
+1536404141.859634 access("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", X_OK) = 0 <0.000008>
+1536404141.859655 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", {st_mode=S_IFREG|0755, st_size=1078312, ...}) = 0 <0.000006>
+1536404141.859674 geteuid()             = 990 <0.000004>
+1536404141.859688 getegid()             = 1012 <0.000005>
+1536404141.859703 getuid()              = 990 <0.000005>
+1536404141.859717 getgid()              = 1012 <0.000004>
+1536404141.859731 access("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", R_OK) = 0 <0.000007>
+1536404141.859750 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", {st_mode=S_IFREG|0755, st_size=1078312, ...}) = 0 <0.000006>
+1536404141.859769 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", {st_mode=S_IFREG|0755, st_size=1078312, ...}) = 0 <0.000006>
+1536404141.859789 geteuid()             = 990 <0.000004>
+1536404141.859803 getegid()             = 1012 <0.000004>
+1536404141.859817 getuid()              = 990 <0.000005>
+1536404141.859831 getgid()              = 1012 <0.000005>
+1536404141.859846 access("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", X_OK) = 0 <0.000006>
+1536404141.859864 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", {st_mode=S_IFREG|0755, st_size=1078312, ...}) = 0 <0.000006>
+1536404141.859884 geteuid()             = 990 <0.000005>
+1536404141.859899 getegid()             = 1012 <0.000004>
+1536404141.859913 getuid()              = 990 <0.000004>
+1536404141.859927 getgid()              = 1012 <0.000004>
+1536404141.859941 access("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/bash", R_OK) = 0 <0.000007>
+1536404141.859977 getpid()              = 13090 <0.000005>
+1536404141.859995 brk(0x559048f52000)   = 0x559048f52000 <0.000006>
+1536404141.860017 brk(0x559048f53000)   = 0x559048f53000 <0.000005>
+1536404141.860036 getpgrp()             = 13088 <0.000005>
+1536404141.860053 rt_sigaction(SIGCHLD, {sa_handler=0x559048c8a0a0, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fad62b7b030}, 8) = 0 <0.000005>
+1536404141.860076 getrlimit(RLIMIT_NPROC, {rlim_cur=257547, rlim_max=257547}) = 0 <0.000005>
+1536404141.860124 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000005>
+1536404141.860148 getpeername(0, 0x7ffc012bc9b0, [16]) = -1 ENOTSOCK (Socket operation on non-socket) <0.000005>
+1536404141.860170 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0 <0.000005>
+1536404141.860191 brk(0x559048f54000)   = 0x559048f54000 <0.000005>
+1536404141.860218 getrusage(RUSAGE_SELF, {ru_utime={tv_sec=0, tv_usec=0}, ru_stime={tv_sec=0, tv_usec=0}, ...}) = 0 <0.000006>
+1536404141.860238 getrusage(RUSAGE_CHILDREN, {ru_utime={tv_sec=0, tv_usec=0}, ru_stime={tv_sec=0, tv_usec=0}, ...}) = 0 <0.000005>
+1536404141.860263 stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0 <0.000006>
+1536404141.860285 stat("/srv/slapgrid/slappart8/srv/runner/project/slapos.core/env/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000008>
+1536404141.860306 stat("/srv/slapgrid/slappart8/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860325 stat("/srv/slapgrid/slappart8/.local/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.860349 stat("/srv/slapgrid/slappart8/.local/nodejs/node-v8.6.0-linux-x64/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.860369 stat("/srv/slapgrid/slappart8/.cargo/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860388 stat("/srv/slapgrid/slappart8/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860407 stat("/srv/slapgrid/slappart8/.local/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860426 stat("/srv/slapgrid/slappart8/.local/nodejs/node-v8.6.0-linux-x64/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860445 stat("/srv/slapgrid/slappart8/.cargo/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860464 stat("/srv/slapgrid/slappart8/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860483 stat("/srv/slapgrid/slappart8/.local/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860502 stat("/srv/slapgrid/slappart8/.local/nodejs/node-v8.6.0-linux-x64/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860521 stat("/srv/slapgrid/slappart8/.cargo/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000005>
+1536404141.860539 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/nano/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000025>
+1536404141.860589 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/vim/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000008>
+1536404141.860615 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/screen/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.860638 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/git/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.860662 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/curl/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000007>
+1536404141.860685 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/python2.7/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860707 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/tig/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860728 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/zip/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860749 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/mosh/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860770 stat("/opt/slapgrid/b0bcd9831b23f334bc85e4a193c748a0/parts/bash/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000005>
+1536404141.860791 stat("/srv/slapgrid/slappart8/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860813 stat("/usr/bin/ls", 0x7ffc012bc120) = -1 ENOENT (No such file or directory) <0.000006>
+1536404141.860834 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=130736, ...}) = 0 <0.000006>
+1536404141.860857 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=130736, ...}) = 0 <0.000005>
+1536404141.860879 geteuid()             = 990 <0.000004>
+1536404141.860894 getegid()             = 1012 <0.000004>
+1536404141.860910 getuid()              = 990 <0.000004>
+1536404141.860925 getgid()              = 1012 <0.000005>
+1536404141.860940 access("/bin/ls", X_OK) = 0 <0.000006>
+1536404141.860959 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=130736, ...}) = 0 <0.000005>
+1536404141.860980 geteuid()             = 990 <0.000004>
+1536404141.860996 getegid()             = 1012 <0.000004>
+1536404141.861011 getuid()              = 990 <0.000004>
+1536404141.861026 getgid()              = 1012 <0.000004>
+1536404141.861041 access("/bin/ls", R_OK) = 0 <0.000005>
+1536404141.861061 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=130736, ...}) = 0 <0.000005>
+1536404141.861088 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=130736, ...}) = 0 <0.000005>
+1536404141.861109 geteuid()             = 990 <0.000005>
+1536404141.861125 getegid()             = 1012 <0.000005>
+1536404141.861141 getuid()              = 990 <0.000005>
+1536404141.861156 getgid()              = 1012 <0.000004>
+1536404141.861171 access("/bin/ls", X_OK) = 0 <0.000006>
+1536404141.861191 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=130736, ...}) = 0 <0.000005>
+1536404141.861212 geteuid()             = 990 <0.000005>
+1536404141.861227 getegid()             = 1012 <0.000005>
+1536404141.861242 getuid()              = 990 <0.000004>
+1536404141.861256 getgid()              = 1012 <0.000005>
+1536404141.861272 access("/bin/ls", R_OK) = 0 <0.000005>
+1536404141.861299 brk(0x559048f55000)   = 0x559048f55000 <0.000006>
+1536404141.861320 brk(0x559048f56000)   = 0x559048f56000 <0.000005>
+1536404141.861339 brk(0x559048f57000)   = 0x559048f57000 <0.000005>
+1536404141.861363 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0 <0.000006>
+1536404141.861387 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7fad6355ae10) = 13091 <0.000073>
+1536404141.861486 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000005>
+1536404141.861519 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000004>
+1536404141.861545 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000005>
+1536404141.861563 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000004>
+1536404141.861583 rt_sigaction(SIGINT, {sa_handler=0x559048c87050, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, 8) = 0 <0.000006>
+1536404141.861610 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 13091 <0.009688>
+1536404141.871324 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, {sa_handler=0x559048c87050, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fad62b7b030}, 8) = 0 <0.000006>
+1536404141.871362 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000006>
+1536404141.871384 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13091, si_uid=990, si_status=0, si_utime=0, si_stime=0} ---
+1536404141.871399 wait4(-1, 0x7ffc012bbc58, WNOHANG, NULL) = -1 ECHILD (No child processes) <0.000007>
+1536404141.871423 rt_sigreturn({mask=[]}) = 0 <0.000007>
+1536404141.871446 getrusage(RUSAGE_SELF, {ru_utime={tv_sec=0, tv_usec=0}, ru_stime={tv_sec=0, tv_usec=0}, ...}) = 0 <0.000006>
+1536404141.871468 getrusage(RUSAGE_CHILDREN, {ru_utime={tv_sec=0, tv_usec=0}, ru_stime={tv_sec=0, tv_usec=0}, ...}) = 0 <0.000005>
+1536404141.871499 write(2, "\n", 1)     = 1 <0.000009>
+1536404141.871527 write(2, "real\t0m0.011s\n", 14) = 14 <0.000015>
+1536404141.871672 write(2, "user\t0m0.000s\n", 14) = 14 <0.000012>
+1536404141.871708 write(2, "sys\t0m0.000s\n", 13) = 13 <0.000020>
+1536404141.871895 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.000007>
+1536404141.871921 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.000005>
+1536404141.871959 exit_group(0)         = ?
+1536404141.872119 +++ exited with 0 +++
